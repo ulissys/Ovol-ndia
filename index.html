@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Ovos de Páscoa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo a Ovolândia</h1>
+    </header>
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNesXbMYeSjvtUm4dJTAASXpdeQ6s-wgUg6Q&s" alt="Ovo de Páscoa 1">
+                <div>
+                    <h3>Ovo de Páscoa Tradicional</h3>
+                    <p>Esse é o nosso Ovo de Páscoa Tradicional. Com 199g, este ovo é uma obra prima com base nos sabores tradicionais da Páscoa, o chocolate ao leite cremoso.</p>
+                    <p>Preço: R$ 49,90</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://s2-valor.glbimg.com/AFVPsQpR7vsV8nWGkz_T1TucyiI=/0x0:1000x1000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/F/Z/Y9j2MKR8GvZAsBWwIvbg/pascoa.webp" alt="Ovo de Páscoa 2">
+                <div>
+                    <h3>Ovo de Páscoa Gourmet</h3>
+                    <p>Esse é nosso mais novo produto no mercado, que busca trazer tons de elegância e sabores a mais para a Páscoa. Nosso Ovo Gourmet de Trufas Caramelizadas, e Cobertura de Chocolate Suíço! </p>
+                    <p>Preço: R$ 99,90</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Entre em Contato Conosco</h2>
+            <form class="contact-form" action="enviar_email.php" method="post">
+                <label for="nome">Nome: Ovolândia</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:ovolandia.doces@gmail.com</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Ovolândia 2k24 - Ulissys</p>
+        </div>
+    </footer>
+</body>
+</html>
